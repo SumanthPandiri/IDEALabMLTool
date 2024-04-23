@@ -36,4 +36,11 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
 # IDEALabMLTool
+Feel free to use the images from the static to upload to the data center. Create classes for each group of images, name the classes by clicking on the "New Class" text box, and upload your images. Once you're done, hit train, and predict. To retest things, hit train again and predict again to shuffle the train test split.
+
+Note: Til the UI processes are refined, please upload images 4 at a time.
+
+
+Developed By Sumanth Pandiri, IDEA Lab Clemson University.
