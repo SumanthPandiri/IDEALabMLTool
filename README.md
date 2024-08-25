@@ -1,46 +1,56 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
 # IDEALabMLTool
-Feel free to use the images from the static to upload to the data center. Create classes for each group of images, name the classes by clicking on the "New Class" text box, and upload your images. Once you're done, hit train, and predict. To retest things, hit train again and predict again to shuffle the train test split.
+Teach your own machine learning model! 
+Click the Datacenter button and create classes. Take images or upload them from your computer. Train using the train button, and then and test your model using your live camera! 
 
-Note: Til the UI processes are refined, please upload images 4 at a time.
+This website was built using Svelte, JavaScript, Tensorflow.JS, and Tailwind.CSS. 
+
+Developed By Sumanth Pandiri, IDEA Lab (formerly Clemson University, now Vanderbilt University).
 
 
-Developed By Sumanth Pandiri, IDEA Lab Clemson University.
+## Building, Running, and Testing Locally
+
+To run this application locally, you will need to have the following installed on your machine:
+
+- Node and NPM
+    - [How to install NodeJS and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- Git
+    - [How to install Git](https://github.com/git-guides/install-git)
+
+
+
+### Cloning the repository
+Once Git is installed, you can clone this repository on your machine.
+
+Using the Terminal or Command Prompt, navigate to the desired directory where you would like to clone the repository. Run the following command:
+
+```git clone https://github.com/IDEA-Lab-Clemson-University/IDEALabMLTool```
+
+This will create a new folder in your current working directory called `IDEALabMLTool`. Navigate into it by running `cd IDEALabMLTool`
+
+### Installing proper dependencies
+
+Once in the `IDEALabMLTool` directory AND Node and npm are installed, run `npm install` to install the required dependencies. This may take a while if it is the first time running. 
+
+### Running the application
+
+Once you have installed the dependencies, you can run `npm run dev` to start the development server. You should receive a message in the terminal once the server is up and running. You can then navigate to [http://localhost:5173](http://localhost:5173) in your browser to access the application.
+
+When you are ready to close the application, you can `CTRL+C` in the terminal to stop the server. You can also just close the terminal window. 
+
+
+## Contributing
+
+Those who wish to contribute to this project can do so in multiple ways
+
+### Issue Reporting
+If you spot an issue while using/demoing the application, please create a new [GitHub Issue](https://github.com/IDEA-Lab-Clemson-University/IDEALabMLTool/issues) describing the problem, where it was found, and what the expected behavior should be.
+
+### Pull Requests
+If you want to contribute code to this repository, please create a fork and branch from the development branch and submit a pull request.
+
+To keep contributions clear, it is recommended to install [psioniq File Header](https://marketplace.visualstudio.com/items?itemName=psioniq.psi-header) as an extension to VSCode. This will automatically add a comment to the top of any file you create with relevant information about the contributor. You should then go into `/.vscode/settings.json` and configure the `psi-header.config` object to represent your name, email and affiliation. 
+
+## Project Structure
+
+### Folder Structure
+The main application lives in the `src` directory.

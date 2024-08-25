@@ -35,6 +35,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tensorflow/tfjs": "^4.18.0",
+		"jszip": "^3.10.1",
 		"svelte-simple-modal": "^1.6.2"
 	}
 }
